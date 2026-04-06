@@ -56,15 +56,7 @@ Um jogo de combate por turnos utilizando **Structs** e lógica de fúria.
 
 ## 👤 Autor
 
-Desenvolvido por **Seu Nome Aqui** durante o aprendizado de lógica de programação e estruturas de controle em C.
+Desenvolvido por Heitor Sena durante o aprendizado de lógica de programação e estruturas de controle em C.
 ```
 
----
 
-### Dicas para o GitHub:
-
-1.  **Edite o Nome:** No final do texto, troque "Seu Nome Aqui" pelo seu nome real ou seu usuário do GitHub.
-2.  **Imagens:** Se você quiser deixar o README incrível, tire um *print* do menu do jogo rodando no seu terminal e adicione no repositório.
-3.  **Extensão:** Certifique-se de que o nome do arquivo seja exatamente `README.md` (em letras maiúsculas). O GitHub reconhece esse nome automaticamente e o exibe logo abaixo da lista de arquivos.
-
-Você já sabe como criar esse arquivo `.md` ou quer que eu te ajude com os comandos para subir ele junto com o código?
