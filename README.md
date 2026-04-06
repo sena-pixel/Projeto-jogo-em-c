@@ -1,62 +1,24 @@
-# Projeto-jogo-em-c
+# 🕹️ Hub de Jogos em C 
 
-# 1. 🎮 Hub de Jogos em C
-
-Este é um projeto desenvolvido em linguagem C que reúne três jogos interativos em um único menu (Hub). O código foi estruturado para ser **multiplataforma**, funcionando tanto em Windows quanto em Linux/Unix.
+Este projeto é um console de jogos desenvolvido em C, apresentando uma interface de menu para acessar diferentes experiências interativas. O foco do projeto foi aplicar conceitos de estruturas de repetição (`while`, `do-while`), controle de fluxo, structs e compatibilidade entre sistemas operacionais (Windows/Linux).
 
 ---
 
-## 🚀 Como Executar
-
-### Pré-requisitos
-* Um compilador de C (GCC, Clang ou MinGW).
-
-### Passo a passo
-1. Clone este repositório ou baixe o arquivo `.c`.
-2. Abra o terminal na pasta do arquivo.
-3. Compile o código:
-   ```bash
-   gcc nome_do_seu_arquivo.c -o hub_jogos
-   ```
-4. Execute o programa:
-   * **Windows:** `hub_jogos.exe`
-   * **Linux/Mac:** `./hub_jogos`
-
----
-
-## 🕹️ Jogos Inclusos
+## 🎮 Jogos Disponíveis
 
 ### 1. Perguntas e Respostas ❓
-Um quiz clássico de conhecimentos gerais. O jogador deve escolher a alternativa correta para avançar. Inclui validação de entrada para evitar erros.
+Um quiz de múltipla escolha com validação de entrada de dados. Utiliza laços de repetição para permitir que o usuário tente novamente sem fechar o programa.
 
 ### 2. Cobra na Caixa 🐍
-Um jogo de sorte e estratégia para dois jogadores!
-* Escolha seus personagens egípcios.
-* Abram as caixas uma por uma.
-* **Objetivo:** Achar o botão de vitória antes de encontrar a cobra escondida!
+Um jogo de estratégia e sorte para dois jogadores baseado em nomes da mitologia egípcia.
+- **Mecânica:** Os jogadores escolhem caixas numeradas.
+- **Objetivo:** Encontrar o "Botão de Vitória" antes de encontrar a "Cobra".
+- **Lógica:** Utiliza geração de números aleatórios com `rand()` e `time.h`.
 
 ### 3. Gousmas War ⚔️
-Um jogo de combate por turnos utilizando **Structs** e lógica de fúria.
-* Cada jogador controla duas "Gousmas".
-* Ataque o oponente para aumentar a fúria dele.
-* **Cuidado:** Se a fúria de uma Gousma ultrapassar o limite, ela explode!
+Um simulador de batalha por turnos que utiliza conceitos avançados:
+- **Structs:** Gerenciamento de atributos (fúria e estado ativo) de cada personagem.
+- **Sistema de Fúria:** Ataques aumentam a fúria do oponente; se ultrapassar o limite, a unidade explode.
 
 ---
-
-## 🛠️ Tecnologias e Conceitos Utilizados
-
-* **Linguagem C**: Base de todo o projeto.
-* **Estruturas de Repetição**: Uso intensivo de `while`, `do-while` e `for`.
-* **Condicionais**: `if/else` e `switch-case` para o menu e regras dos jogos.
-* **Multiplataforma**: Uso de `#ifdef` para comandos de limpar tela (`cls`/`clear`) e pausa (`Sleep`/`usleep`).
-* **Gerenciamento de Memória**: Limpeza de buffer de entrada (`getchar`).
-* **Structs e Typedef**: Organização de dados complexos no jogo Gousmas War.
-
----
-
-## 👤 Autor
-
-Desenvolvido por Heitor Sena durante o aprendizado de lógica de programação e estruturas de controle em C.
-```
-
 
